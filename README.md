@@ -30,5 +30,5 @@ Build a payroll management system that:
 
 ---
 
-## 📂 Recommended Directory Structure
+
 
