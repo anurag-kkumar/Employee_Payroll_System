@@ -1,0 +1,25 @@
+{
+  "name": "employee_payroll_system",
+  "version": "1.0.0",
+  "description": "The **Employee Payroll System (EPS)** is a server-side web application built using **Node.js**, **Express**, and **EJS**.",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-kkumar/Employee_Payroll_System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag-kkumar/Employee_Payroll_System/issues"
+  },
+  "homepage": "https://github.com/anurag-kkumar/Employee_Payroll_System#readme",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
