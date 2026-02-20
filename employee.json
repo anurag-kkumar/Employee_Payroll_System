@@ -1,7 +1,20 @@
 [
   {
-    "name": "arayar",
-    "department": "hr",
-    "salary": "60000"
+    "id": 0.005465910496160298,
+    "name": "aditya",
+    "department": "Db manager",
+    "salary": "30000"
+  },
+  {
+    "id": 0.46696887200515036,
+    "name": "aditya",
+    "department": "Db manager",
+    "salary": "30000"
+  },
+  {
+    "id": 0.720005035009436,
+    "name": "Shayam",
+    "department": "Project maneger",
+    "salary": "200000"
   }
 ]

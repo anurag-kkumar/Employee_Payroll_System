@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="/home.css">
 </head>
 <body>
-    <h1> welcom  home page</h1>
-    <a href="/add">Add Employee</a>
-    
+
+<h1>Welcome Home Page</h1>
+<a href="/employee/add">Add Employee</a>
+<div style="display: flex; flex-direction: row; gap: 20px;">
+    <h3>Total Employees: <%= totalEmployees %></h3>
+<h3>Total Basic Salary: ₹<%= totalSalary %></h3>
+<h3>Total tax: ₹<%= totaltax %></h3>
+</div>
+
+<hr>
+
+<ul>
+    <% employees.forEach(emp => { %>
+        <li>
+            <strong>Name:</strong> <%= emp.name %> |
+            <strong>Department:</strong> <%= emp.department %> |
+            <strong>Basic Salary:</strong> ₹<%= emp.salary %> |
+            <strong>Net Salary:</strong> ₹<%= emp.netSalary %>
+        </li>
+        <br>
+    <% }) %>
+</ul>
+
 </body>
 </html>

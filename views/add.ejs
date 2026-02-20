@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
 <h2>Add Employee</h2>
 <form action="/employee/add" method="POST">
-    <input type="text" name="name" />
-    <input type="text" name="department" />
-    <input type="text" name="salary" />
+    <input type="text" name="name" placeholder=" full name" />
+    <input type="text" name="department" placeholder="department name" />
+    <input type="text" name="salary" placeholder="monthly salary"/>
+
     <button type="submit">Add</button>
+    <button type="reset">reset</button>
 </form>
 
 
